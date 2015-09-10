@@ -1,0 +1,17 @@
+{
+  "__loadNpmTasks__": [
+    "grunt-inline"
+  ],
+  "inline": {
+    "build": {
+      "options": {
+        "tag": ""
+      },
+      "src": "index.html",
+      "dest": "inlined.html"
+    }
+  },
+  "__gruntTasks__": {
+    "default": "inline"
+  }
+}
